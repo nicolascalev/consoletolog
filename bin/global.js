@@ -37,5 +37,12 @@ fs.writeFile('package.json', newPackage, err => {
     if (err) throw err;
 });
 
+console.log('')
+console.log(`                             _      _        _      `)
+console.log(`    ___ ___  _ __  ___  ___ | | ___| |_ ___ | | ___   __ _ `)
+console.log(`   / __/ _ \\| '_ \\/ __|/ _ \\| |/ _ \\ __/ _ \\| |/ _ \\\ / _  |`)
+console.log(`  | (_| (_) | | | \\__ \\ (_) | |  __/ || (_) | | (_) | (_| |`)
+console.log(`   \\___\\___/|_| |_|___/\\___/|_|\\___|\\__\\___/|_|\\___/ \\__, |`)
+console.log(`                                                     |___/`)
 console.log('\nProceso creado! \n')
 console.log(`Run the process as - npm run ${processName} \n`)
