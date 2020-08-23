@@ -1,0 +1,27 @@
+{
+  "name": "consoletolog",
+  "version": "1.0.0",
+  "description": "Create a process and save it's logs easily",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ejemplo-nice": "node ./ejemplo-nice/run.js"
+  },
+  "keywords": [
+    "log",
+    "console",
+    "save",
+    "write",
+    "cli"
+  ],
+  "author": "Nicolas Calev Guillen Chaves",
+  "license": "ISC",
+  "bin": {
+    "ctl": "./bin/global.js"
+  },
+  "dependencies": {
+    "moment": "^2.27.0",
+    "shelljs": "^0.8.4",
+    "yargs": "^15.4.1"
+  }
+}
