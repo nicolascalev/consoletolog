@@ -4,8 +4,7 @@
   "description": "Create a process and save it's logs easily",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "ejemplo-nice": "node ./ejemplo-nice/run.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "log",
@@ -17,11 +16,20 @@
   "author": "Nicolas Calev Guillen Chaves",
   "license": "ISC",
   "bin": {
-    "ctl": "./bin/global.js"
+    "ctl": "bin/global.js"
   },
   "dependencies": {
     "moment": "^2.27.0",
     "shelljs": "^0.8.4",
     "yargs": "^15.4.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolascalev/consoletolog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicolascalev/consoletolog/issues"
+  },
+  "homepage": "https://github.com/nicolascalev/consoletolog#readme"
 }
