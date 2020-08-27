@@ -49,3 +49,30 @@ Then, after running that command it will add a log file
     ├── run.js
     └── cool-process.js
 ```
+
+
+## Be creative!
+
+You can get creative with the logs to get a cool output
+
+```javascript
+// cool-process.js
+
+var users = [
+    { name: 'Nicolas', lastName: 'Guillen' },
+    { name: 'Mariano', lastName: 'Rivera' },
+]
+
+console.table(users)
+```
+
+After running that process you'd get a table like this
+
+```
+┌─────────┬───────────┬───────────┐
+│ (index) │   name    │ lastName  │
+├─────────┼───────────┼───────────┤
+│    0    │ 'Nicolas' │ 'Guillen' │
+│    1    │ 'Mariano' │ 'Rivera'  │
+└─────────┴───────────┴───────────┘
+```

@@ -1,6 +1,6 @@
 {
   "name": "consoletolog",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Create a process and save it's logs easily",
   "main": "index.js",
   "scripts": {
@@ -31,5 +31,5 @@
   "bugs": {
     "url": "https://github.com/nicolascalev/consoletolog/issues"
   },
-  "homepage": "https://github.com/nicolascalev/consoletolog#readme"
+  "homepage": "https://nicolascalev.github.io/consoletolog/"
 }
