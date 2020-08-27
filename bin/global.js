@@ -9,13 +9,15 @@ const processName = argv.name;
 
 shell.mkdir('-p', `./${processName}`, `./${processName}/logs`);
 
-var runjs = `
+var runjs = `#!/usr/bin/env node
+
 const shell = require('shelljs')
 const moment = require('moment')
 
 moment.locale('es')
 var fileName = \`\${moment(Date.now()).format('DD-MM-YYYY_hh-mm-ss')}.txt\`;
 shell.exec(\`node ./${processName}/${processName}.js > ./${processName}/logs/\${fileName}\`)
+process.exit();
 `;
 
 fs.appendFile(`${processName}/run.js`, runjs, err => {
